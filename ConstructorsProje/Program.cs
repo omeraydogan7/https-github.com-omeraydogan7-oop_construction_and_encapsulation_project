@@ -42,7 +42,7 @@ namespace ConstructorsProje
             Vatandas vatandas2 = new Vatandas() // ikinci vatandaş objemizi new'lerken özelliklerini set ediyoruz, yine default constructor'daki kod bloğu çalışacak,
                                                 // Ulke özelliğini set edemeyiz çünkü getter üzerinden readonly (sadece okunur) yaptık
             {
-                Adi = "Salih",
+                Adi = "Ömer",
                 Soyadi = "Aydoğan",
                 Sehir = "İzmir"
             };
