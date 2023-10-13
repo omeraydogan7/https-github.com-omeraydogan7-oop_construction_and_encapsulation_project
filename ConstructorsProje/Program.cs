@@ -42,7 +42,7 @@ namespace ConstructorsProje
             Vatandas vatandas2 = new Vatandas() // ikinci vatandaş objemizi new'lerken özelliklerini set ediyoruz, yine default constructor'daki kod bloğu çalışacak,
                                                 // Ulke özelliğini set edemeyiz çünkü getter üzerinden readonly (sadece okunur) yaptık
             {
-                Adi = "Ömer",
+                Adi = "Ömer1",
                 Soyadi = "Aydoğan",
                 Sehir = "İzmir"
             };
@@ -76,7 +76,7 @@ namespace ConstructorsProje
                                                        // kullandığımız imzaya sahip constructor kod bloğu çalışacak,
                                                        // özellikleri objeyi oluştururken atıyoruz
             {
-                Adi = "Ömer",
+                Adi = "Ömer2",
                 Soyadi = "Aydoğan"
             };
 
